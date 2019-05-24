@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Código utilizado a partir do video do youtube
+https://www.youtube.com/watch?v=I-I67MNRQZM
+-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/cardview_default_elevation">
+    <shape android:shape="rectangle">
+
+        <stroke
+            android:width="1dp"
+            android:color="@color/colorAccent" />
+        <corners android:radius="10dp"/>
+        </shape>
+</item>
+</layer-list>

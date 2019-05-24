@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "315799447901",
+    "firebase_url": "https://cmoispg.firebaseio.com",
+    "project_id": "cmoispg",
+    "storage_bucket": "cmoispg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315799447901:android:5429b81df86ec773",
+        "android_client_info": {
+          "package_name": "com.dcapp.mmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315799447901-8gnv1nm3afc4if90fepqsnrisqbkrkl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxlLuSKaAsE3iC-gMRQ-k_OXKdcm-Nb-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315799447901-8gnv1nm3afc4if90fepqsnrisqbkrkl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

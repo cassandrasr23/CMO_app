@@ -96,14 +96,25 @@
         android:text="Log IN"
         android:textSize="36sp" />
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/btn_register"
+=======
+
+    <Button
+>>>>>>> master
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/transparent_botton"
         android:text="Don't have an account? Register."
+<<<<<<< HEAD
         android:textSize="18dp" />
+=======
+        android:textSize="18dp"
+        android:visibility="visible" />
+
+>>>>>>> master
 
 </LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">315799447901-8gnv1nm3afc4if90fepqsnrisqbkrkl4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cmoispg.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">315799447901</string>
+    <string name="google_api_key" translatable="false">AIzaSyCxlLuSKaAsE3iC-gMRQ-k_OXKdcm-Nb-A</string>
+    <string name="google_app_id" translatable="false">1:315799447901:android:5429b81df86ec773</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCxlLuSKaAsE3iC-gMRQ-k_OXKdcm-Nb-A</string>
+    <string name="google_storage_bucket" translatable="false">cmoispg.appspot.com</string>
+    <string name="project_id" translatable="false">cmoispg</string>
+</resources>

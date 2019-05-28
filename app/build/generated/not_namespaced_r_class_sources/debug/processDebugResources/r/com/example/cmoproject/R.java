@@ -5115,14 +5115,18 @@ public final class R {
     public static final int notification_subtext_size=0x7f0600cc;
     public static final int notification_top_pad=0x7f0600cd;
     public static final int notification_top_pad_large_text=0x7f0600ce;
-    public static final int tooltip_corner_radius=0x7f0600cf;
-    public static final int tooltip_horizontal_padding=0x7f0600d0;
-    public static final int tooltip_margin=0x7f0600d1;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f0600d2;
-    public static final int tooltip_precise_anchor_threshold=0x7f0600d3;
-    public static final int tooltip_vertical_padding=0x7f0600d4;
-    public static final int tooltip_y_offset_non_touch=0x7f0600d5;
-    public static final int tooltip_y_offset_touch=0x7f0600d6;
+    public static final int subtitle_corner_radius=0x7f0600cf;
+    public static final int subtitle_outline_width=0x7f0600d0;
+    public static final int subtitle_shadow_offset=0x7f0600d1;
+    public static final int subtitle_shadow_radius=0x7f0600d2;
+    public static final int tooltip_corner_radius=0x7f0600d3;
+    public static final int tooltip_horizontal_padding=0x7f0600d4;
+    public static final int tooltip_margin=0x7f0600d5;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f0600d6;
+    public static final int tooltip_precise_anchor_threshold=0x7f0600d7;
+    public static final int tooltip_vertical_padding=0x7f0600d8;
+    public static final int tooltip_y_offset_non_touch=0x7f0600d9;
+    public static final int tooltip_y_offset_touch=0x7f0600da;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f070007;

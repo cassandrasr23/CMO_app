@@ -6,6 +6,7 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -14,19 +15,20 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.mikhaellopez.circularimageview.CircularImageView;
+import com.google.firebase.auth.FirebaseUser;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity  {
 
     private TextInputLayout textInputEMail;
     private TextInputLayout textInputPassword;
 
-    private Button  btn_login;
-    private Button  btn_register;
+
+    private Button  btnLogin;
+    private Button  btnRegister;
 
     private FirebaseAuth mAuth;
 
-    private FirebaseAuth.AuthStateListener mAuthListener;
+
 
 
 
@@ -40,47 +42,41 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         textInputEMail = findViewById(R.id.text_email);
         textInputPassword = findViewById(R.id.text_password);
 
-        btn_login = findViewById(R.id.btn_login);
-        btn_login.setOnClickListener(this);
-        btn_register = findViewById(R.id.btn_register);
-        btn_register.setOnClickListener(this);
+        btnLogin = findViewById(R.id.btn_login);
 
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
+        btnRegister = findViewById(R.id.btn_register);
+
+
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-             if(firebaseAuth.getCurrentUser()!= null){
-                    startActivity(new Intent(MainActivity.this,HomeActivity.class));
-             }
-            }
-        };
-
-    }
-
-    //https://stackoverflow.com/questions/25905086/multiple-buttons-onclicklistener-android
-    public void onClick(View v) {
-        // default method for handling onClick Events..
-        switch (v.getId()) {
-
-            case R.id.btn_login:
+            public void onClick(View v) {
                 startSignIn();
-                break;
+            }
+        });
 
-            case R.id.btn_register:
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, RegisterActivity.class));
-                break;
-            default:
-                break;
-        }
+
+            }
+        });
     }
+
 
     @Override
     protected void onStart(){
         super.onStart();
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        updateUI(currentUser);
 
-        mAuth.addAuthStateListener(mAuthListener);
     }
 
-        private void startSignIn(){
+    private void updateUI(FirebaseUser currentUser) {
+    }
+
+    private void startSignIn(){
 
             String email = textInputEMail.getEditText().getText().toString();
             String password = textInputPassword.getEditText().getText().toString();
@@ -96,9 +92,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         if (!task.isSuccessful()){
                         Toast.makeText(MainActivity.this,"Sign In Problem",Toast.LENGTH_LONG).show();
                         }
+                        else {
+                            startActivity(new Intent(MainActivity.this, HomeActivity.class));
+                        }
                     }
                 });
             }
         }
-    }
+
+
+}
 

@@ -6,6 +6,7 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -14,20 +15,25 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+<<<<<<< HEAD
 import com.mikhaellopez.circularimageview.CircularImageView;
 <<<<<<< HEAD
+=======
+import com.google.firebase.auth.FirebaseUser;
+>>>>>>> master
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity  {
 
     private TextInputLayout textInputEMail;
     private TextInputLayout textInputPassword;
 
-    private Button  btn_login;
-    private Button  btn_register;
+
+    private Button  btnLogin;
+    private Button  btnRegister;
 
     private FirebaseAuth mAuth;
 
-    private FirebaseAuth.AuthStateListener mAuthListener;
+
 
 =======
 >>>>>>> master
@@ -54,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         textInputEMail = findViewById(R.id.text_email);
         textInputPassword = findViewById(R.id.text_password);
 
+<<<<<<< HEAD
         btn_login = findViewById(R.id.btn_login);
 <<<<<<< HEAD
         btn_login.setOnClickListener(this);
@@ -61,36 +68,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_register.setOnClickListener(this);
 =======
 >>>>>>> master
+=======
+        btnLogin = findViewById(R.id.btn_login);
+>>>>>>> master
 
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-             if(firebaseAuth.getCurrentUser()!= null){
-                    startActivity(new Intent(MainActivity.this,HomeActivity.class));
-             }
-            }
-        };
+        btnRegister = findViewById(R.id.btn_register);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
+=======
+>>>>>>> master
 
-    //https://stackoverflow.com/questions/25905086/multiple-buttons-onclicklistener-android
-    public void onClick(View v) {
-        // default method for handling onClick Events..
-        switch (v.getId()) {
 
-            case R.id.btn_login:
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 startSignIn();
-                break;
+            }
+        });
 
-            case R.id.btn_register:
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, RegisterActivity.class));
-                break;
-            default:
-                break;
-        }
+
+            }
+        });
     }
 
+<<<<<<< HEAD
 =======
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,14 +108,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 >>>>>>> master
+=======
+
+>>>>>>> master
     @Override
     protected void onStart(){
         super.onStart();
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        updateUI(currentUser);
 
-        mAuth.addAuthStateListener(mAuthListener);
     }
 
-        private void startSignIn(){
+    private void updateUI(FirebaseUser currentUser) {
+    }
+
+    private void startSignIn(){
 
 <<<<<<< HEAD
             String email = textInputEMail.getEditText().getText().toString();
@@ -129,9 +143,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         if (!task.isSuccessful()){
                         Toast.makeText(MainActivity.this,"Sign In Problem",Toast.LENGTH_LONG).show();
                         }
+                        else {
+                            startActivity(new Intent(MainActivity.this, HomeActivity.class));
+                        }
                     }
                 });
             }
         }
-    }
+
+
+}
 

@@ -3,89 +3,161 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:layout_weight="1"
     tools:context=".MainActivity"
-    android:background="#BACFB2" >
+    android:background="@drawable/background" >
 
-    <!--code for the circular image view based on this project in github: https://github.com/lopspower/CircularImageView -->
-    <com.mikhaellopez.circularimageview.CircularImageView
-        android:id="@+id/circularImageView"
-        android:layout_gravity="center"
-        android:layout_width="200dp"
+    <LinearLayout
+        android:id="@+id/view1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.3">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImageView"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            app:civ_border="true"
+            app:civ_border_color="#2887C8"
+            app:civ_border_width="2dp"
+            app:civ_shadow="true"
+            app:civ_shadow_color="#3f51b5"
+            app:civ_shadow_radius="10" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cam1"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+        <!--code for input edit text with a floating label - EMail based on this video of youtube: https://www.youtube.com/watch?v=veOZTvAdzJ8&t=1s-->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            app:errorEnabled="true"
+            app:hintTextAppearance="@style/TextLabel">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!--code for input edit text with a floating label - Password -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            app:hintTextAppearance="@style/TextLabel"
+            app:passwordToggleEnabled="true"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/lock"
+                android:drawableLeft="@drawable/lock"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/lblExpenseCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Forgot Password?"
+                android:textColor="#404040"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/round_button"
+                android:drawableLeft="@drawable/login"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="5dp"
+                 />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="200dp"
-        android:src="@drawable/logo"
-        app:civ_border="true"
-        app:civ_border_color="#3f51b5"
-        app:civ_border_width="8dp"
-        app:civ_shadow="true"
-        app:civ_shadow_color="#3f51b5"
-        app:civ_shadow_radius="10" />
+        android:layout_below="@id/view2"
+        android:background="@drawable/cam2"
+        android:orientation="vertical"
+        android:layout_weight="0.2" >
 
-    <!--code for the horizontal separator -->
-    <View
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="#000000" />
-
-    <!--code for input edit text with a floating label - EMail based on this video of youtube: https://www.youtube.com/watch?v=veOZTvAdzJ8&t=1s-->
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/text_email"
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:errorEnabled="true"
-        app:hintTextAppearance="@style/TextLabel">
-
-        <android.support.design.widget.TextInputEditText
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/edit_round"
-            android:drawableLeft="@drawable/email"
-            android:drawableStart="@drawable/email"
-            android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:paddingLeft="10dp"
-            android:textSize="24sp">
-        </android.support.design.widget.TextInputEditText>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Don't Have an Account?"
+            android:textAlignment="center"
+            android:textSize="20sp" />
 
-    </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/transparent_botton"
+            android:textAllCaps="false"
+            android:text=" Register"
+            android:textSize="25sp" />
 
+    </LinearLayout>
 
-    <!--code for input edit text with a floating label - Password -->
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/text_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:errorEnabled="true"
-        app:passwordToggleEnabled="true"
-        app:hintTextAppearance="@style/TextLabel">
-
-        <android.support.design.widget.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@drawable/edit_round"
-            android:drawableLeft="@drawable/lock"
-            android:drawableStart="@drawable/lock"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:paddingLeft="10dp"
-            android:textSize="24sp" />
-
-    </android.support.design.widget.TextInputLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:paddingTop="5dp"
-        android:text="Forgot Password?"
-        android:textSize="18sp" />
-
-
+<<<<<<< HEAD
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
@@ -116,5 +188,7 @@
         android:visibility="visible" />
 
 >>>>>>> master
+=======
+>>>>>>> master
 
-</LinearLayout>
+    </LinearLayout>

@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\kassa\\AndroidStudioProjects\\CMO_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\31419903ef174d229bffb5c3067bff30\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\cd33340577bc6ad8424df0e720493011\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\918994f2681d94a11fac3142d19e4d05\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\e5abb7cdc89bdd52a728f505c3fe8b17\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

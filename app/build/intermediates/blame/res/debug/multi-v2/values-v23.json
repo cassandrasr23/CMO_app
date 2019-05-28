@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\kassa\\AndroidStudioProjects\\CMO_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\e5abb7cdc89bdd52a728f505c3fe8b17\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\cd33340577bc6ad8424df0e720493011\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\036269822695ffd2c1a982497d174424\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\825cab55ea12b7753a9efc1ac4dab077\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -46,10 +46,11 @@
         android:layout_height="wrap_content"
         android:background="@drawable/cam1"
         android:orientation="vertical"
-        android:layout_weight="0.5">
+        android:layout_weight="0.5"
+        android:layout_below="@id/view1">
 
         <!--code for input edit text with a floating label - EMail based on this video of youtube: https://www.youtube.com/watch?v=veOZTvAdzJ8&t=1s-->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,7 +59,7 @@
             app:errorEnabled="true"
             app:hintTextAppearance="@style/TextLabel">
 
-            <android.support.design.widget.TextInputEditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
@@ -68,11 +69,11 @@
                 android:paddingLeft="10dp"
                 android:textSize="15sp" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <!--code for input edit text with a floating label - Password -->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,7 +82,7 @@
             app:passwordToggleEnabled="true"
             >
 
-            <android.support.design.widget.TextInputEditText
+            <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
@@ -92,7 +93,7 @@
                 android:paddingLeft="10dp"
                 android:textSize="15sp" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -120,8 +121,8 @@
                 android:background="@drawable/round_button"
                 android:drawableLeft="@drawable/login"
                 android:paddingLeft="15dp"
-                android:layout_marginBottom="5dp"
-                 />
+                android:layout_marginBottom="15dp"
+                />
 
         </RelativeLayout>
 

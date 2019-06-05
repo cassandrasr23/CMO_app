@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dcapp.mmapp"
     android:versionCode="1"
-    android:versionName="1.1" >
+    android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -24,9 +24,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.cmoproject.RegisterActivity" />
-        <activity android:name="com.example.cmoproject.HomeActivity" />
-        <activity android:name="com.example.cmoproject.MainActivity" >
+        <activity android:name="com.example.cmoproject.Register.RegisterActivity" />
+        <activity android:name="com.example.cmoproject.Home.HomeActivity" />
+        <activity android:name="com.example.cmoproject.Login.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 28 22:37:09 BST 2019
+#Wed Jun 12 09:56:36 BST 2019
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 0.path=classes.dex

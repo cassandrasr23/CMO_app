@@ -44,7 +44,6 @@ public class MainActivityViewModel extends ViewModel {
                 }
                 else {
                     liveData.postValue(ResultType.SUCCESS);
-
                 }
             }
             });

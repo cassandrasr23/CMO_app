@@ -8,12 +8,12 @@
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2af8c0e926d68c63bd0ad8409006083e\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector.xml.flat",
-        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2af8c0e926d68c63bd0ad8409006083e\\res\\color\\mtrl_tabs_icon_color_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector.xml.flat",
+        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2af8c0e926d68c63bd0ad8409006083e\\res\\color\\mtrl_tabs_icon_color_selector.xml"
     },
     {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_out.xml.flat",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2af8c0e926d68c63bd0ad8409006083e\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",
-        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2af8c0e926d68c63bd0ad8409006083e\\res\\color\\mtrl_chip_text_color.xml"
-    },
-    {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",
+        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2af8c0e926d68c63bd0ad8409006083e\\res\\color\\mtrl_chip_text_color.xml"
     },
     {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_unelevated_state_list_anim.xml.flat",
@@ -180,12 +180,12 @@
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
-        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_chip_state_list_anim.xml.flat",
@@ -272,12 +272,12 @@
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2af8c0e926d68c63bd0ad8409006083e\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
     },
     {
-        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\9283e92b5bcdeb299d56056e660e33fa\\res\\layout\\notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\9283e92b5bcdeb299d56056e660e33fa\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
@@ -320,12 +320,12 @@
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",

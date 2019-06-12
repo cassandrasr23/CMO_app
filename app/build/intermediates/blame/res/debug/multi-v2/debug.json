@@ -1,79 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\a9da94c1558a7febde8bcbb181a84de0\\res\\values-is\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,535,658,765,965,1088,1223,1353,1566,1670,1858,1982,2183,2363,2453,2542",
-                        "endColumns": "103,185,122,106,199,122,134,129,212,103,187,123,200,179,89,88,103",
-                        "endOffsets": "348,534,657,764,964,1087,1222,1352,1565,1669,1857,1981,2182,2362,2452,2541,2645"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2784,2892,3078,3205,3316,3516,3643,3782,4104,4317,4425,4613,4741,4942,5126,5220,5313",
-                        "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
-                        "endOffsets": "2887,3073,3200,3311,3511,3638,3777,3911,4312,4420,4608,4736,4937,5121,5215,5308,5416"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\ae0956543b304e40f45032c38b0a8726\\res\\values-is\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "187",
-                        "endOffsets": "434"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3916",
-                        "endColumns": "187",
-                        "endOffsets": "4099"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-is\\values-is.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,205,302,414,499,600,714,794,874,965,1058,1154,1248,1355,1448,1543,1638,1729,1823,1904,2014,2122,2220,2329,2428,2531,2686,2784",
-                        "endColumns": "99,96,111,84,100,113,79,79,90,92,95,93,106,92,94,94,90,93,80,109,107,97,108,98,102,154,97,80",
-                        "endOffsets": "200,297,409,494,595,709,789,869,960,1053,1149,1243,1350,1443,1538,1633,1724,1818,1899,2009,2117,2215,2324,2423,2526,2681,2779,2860"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,205,302,414,499,600,714,794,874,965,1058,1154,1248,1355,1448,1543,1638,1729,1823,1904,2014,2122,2220,2329,2428,2531,2686,5421",
-                        "endColumns": "99,96,111,84,100,113,79,79,90,92,95,93,106,92,94,94,90,93,80,109,107,97,108,98,102,154,97,80",
-                        "endOffsets": "200,297,409,494,595,709,789,869,960,1053,1149,1243,1350,1443,1538,1633,1724,1818,1899,2009,2117,2215,2324,2423,2526,2681,2779,5497"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-is\\values-is.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5502",
-                        "endColumns": "100",
-                        "endOffsets": "5598"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-ko_values-ko.arsc.flat",
             "map": [
                 {
@@ -142,6 +69,79 @@
                         "startOffsets": "2678,2784,2955,3073,3177,3351,3470,3607,3911,4115,4220,4387,4507,4684,4833,4922,5010",
                         "endColumns": "105,170,117,103,173,118,136,123,203,104,166,119,176,148,88,87,103",
                         "endOffsets": "2779,2950,3068,3172,3346,3465,3602,3726,4110,4215,4382,4502,4679,4828,4917,5005,5109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\a9da94c1558a7febde8bcbb181a84de0\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,535,658,765,965,1088,1223,1353,1566,1670,1858,1982,2183,2363,2453,2542",
+                        "endColumns": "103,185,122,106,199,122,134,129,212,103,187,123,200,179,89,88,103",
+                        "endOffsets": "348,534,657,764,964,1087,1222,1352,1565,1669,1857,1981,2182,2362,2452,2541,2645"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2784,2892,3078,3205,3316,3516,3643,3782,4104,4317,4425,4613,4741,4942,5126,5220,5313",
+                        "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
+                        "endOffsets": "2887,3073,3200,3311,3511,3638,3777,3911,4312,4420,4608,4736,4937,5121,5215,5308,5416"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\ae0956543b304e40f45032c38b0a8726\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "187",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3916",
+                        "endColumns": "187",
+                        "endOffsets": "4099"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,794,874,965,1058,1154,1248,1355,1448,1543,1638,1729,1823,1904,2014,2122,2220,2329,2428,2531,2686,2784",
+                        "endColumns": "99,96,111,84,100,113,79,79,90,92,95,93,106,92,94,94,90,93,80,109,107,97,108,98,102,154,97,80",
+                        "endOffsets": "200,297,409,494,595,709,789,869,960,1053,1149,1243,1350,1443,1538,1633,1724,1818,1899,2009,2117,2215,2324,2423,2526,2681,2779,2860"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,794,874,965,1058,1154,1248,1355,1448,1543,1638,1729,1823,1904,2014,2122,2220,2329,2428,2531,2686,5421",
+                        "endColumns": "99,96,111,84,100,113,79,79,90,92,95,93,106,92,94,94,90,93,80,109,107,97,108,98,102,154,97,80",
+                        "endOffsets": "200,297,409,494,595,709,789,869,960,1053,1149,1243,1350,1443,1538,1633,1724,1818,1899,2009,2117,2215,2324,2423,2526,2681,2779,5497"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5502",
+                        "endColumns": "100",
+                        "endOffsets": "5598"
                     }
                 }
             ]
@@ -1193,6 +1193,79 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\a9da94c1558a7febde8bcbb181a84de0\\res\\values-fi\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,354,539,668,772,974,1098,1240,1372,1572,1676,1856,1980,2187,2352,2444,2540",
+                        "endColumns": "108,184,128,103,201,123,141,131,199,103,179,123,206,164,91,95,107",
+                        "endOffsets": "353,538,667,771,973,1097,1239,1371,1571,1675,1855,1979,2186,2351,2443,2539,2647"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2792,2905,3090,3223,3331,3533,3661,3807,4152,4352,4460,4640,4768,4975,5144,5240,5340",
+                        "endColumns": "112,184,132,107,201,127,145,135,199,107,179,127,206,168,95,99,111",
+                        "endOffsets": "2900,3085,3218,3326,3528,3656,3802,3938,4347,4455,4635,4763,4970,5139,5235,5335,5447"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5532",
+                        "endColumns": "100",
+                        "endOffsets": "5628"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\ae0956543b304e40f45032c38b0a8726\\res\\values-fi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "208",
+                        "endOffsets": "455"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3943",
+                        "endColumns": "208",
+                        "endOffsets": "4147"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,313,414,500,605,723,810,892,983,1076,1172,1266,1361,1454,1550,1649,1740,1834,1914,2021,2124,2221,2327,2426,2530,2693,2792",
+                        "endColumns": "107,99,100,85,104,117,86,81,90,92,95,93,94,92,95,98,90,93,79,106,102,96,105,98,103,162,98,79",
+                        "endOffsets": "208,308,409,495,600,718,805,887,978,1071,1167,1261,1356,1449,1545,1644,1735,1829,1909,2016,2119,2216,2322,2421,2525,2688,2787,2867"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,313,414,500,605,723,810,892,983,1076,1172,1266,1361,1454,1550,1649,1740,1834,1914,2021,2124,2221,2327,2426,2530,2693,5452",
+                        "endColumns": "107,99,100,85,104,117,86,81,90,92,95,93,94,92,95,98,90,93,79,106,102,96,105,98,103,162,98,79",
+                        "endOffsets": "208,308,409,495,600,718,805,887,978,1071,1167,1261,1356,1449,1545,1644,1735,1829,1909,2016,2119,2216,2322,2421,2525,2688,2787,5527"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
             "map": [
                 {
@@ -1274,79 +1347,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\a9da94c1558a7febde8bcbb181a84de0\\res\\values-fi\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,354,539,668,772,974,1098,1240,1372,1572,1676,1856,1980,2187,2352,2444,2540",
-                        "endColumns": "108,184,128,103,201,123,141,131,199,103,179,123,206,164,91,95,107",
-                        "endOffsets": "353,538,667,771,973,1097,1239,1371,1571,1675,1855,1979,2186,2351,2443,2539,2647"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2792,2905,3090,3223,3331,3533,3661,3807,4152,4352,4460,4640,4768,4975,5144,5240,5340",
-                        "endColumns": "112,184,132,107,201,127,145,135,199,107,179,127,206,168,95,99,111",
-                        "endOffsets": "2900,3085,3218,3326,3528,3656,3802,3938,4347,4455,4635,4763,4970,5139,5235,5335,5447"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-fi\\values-fi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5532",
-                        "endColumns": "100",
-                        "endOffsets": "5628"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\ae0956543b304e40f45032c38b0a8726\\res\\values-fi\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "208",
-                        "endOffsets": "455"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3943",
-                        "endColumns": "208",
-                        "endOffsets": "4147"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-fi\\values-fi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,313,414,500,605,723,810,892,983,1076,1172,1266,1361,1454,1550,1649,1740,1834,1914,2021,2124,2221,2327,2426,2530,2693,2792",
-                        "endColumns": "107,99,100,85,104,117,86,81,90,92,95,93,94,92,95,98,90,93,79,106,102,96,105,98,103,162,98,79",
-                        "endOffsets": "208,308,409,495,600,718,805,887,978,1071,1167,1261,1356,1449,1545,1644,1735,1829,1909,2016,2119,2216,2322,2421,2525,2688,2787,2867"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,313,414,500,605,723,810,892,983,1076,1172,1266,1361,1454,1550,1649,1740,1834,1914,2021,2124,2221,2327,2426,2530,2693,5452",
-                        "endColumns": "107,99,100,85,104,117,86,81,90,92,95,93,94,92,95,98,90,93,79,106,102,96,105,98,103,162,98,79",
-                        "endOffsets": "208,308,409,495,600,718,805,887,978,1071,1167,1261,1356,1449,1545,1644,1735,1829,1909,2016,2119,2216,2322,2421,2525,2688,2787,5527"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-fr_values-fr.arsc.flat",
             "map": [
                 {
@@ -1420,17 +1420,74 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v22_values-v22.arsc.flat",
+            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\a9da94c1558a7febde8bcbb181a84de0\\res\\values-zh-rTW\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "249,348,508,621,721,887,1001,1127,1247,1416,1515,1675,1788,1949,2083,2165,2248",
+                        "endColumns": "98,159,112,99,165,113,125,119,168,98,159,112,160,133,81,82,98",
+                        "endOffsets": "347,507,620,720,886,1000,1126,1246,1415,1514,1674,1787,1948,2082,2164,2247,2346"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2675,2778,2938,3055,3159,3325,3443,3573,3859,4028,4131,4291,4408,4569,4707,4793,4880",
+                        "endColumns": "102,159,116,103,165,117,129,123,168,102,159,116,160,137,85,86,102",
+                        "endOffsets": "2773,2933,3050,3154,3320,3438,3568,3692,4023,4126,4286,4403,4564,4702,4788,4875,4978"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5061",
+                        "endColumns": "100",
+                        "endOffsets": "5157"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1116,1212,1308,1402,1498,1590,1682,1774,1852,1948,2044,2139,2236,2331,2431,2581,2675",
+                        "endColumns": "94,92,99,81,96,107,75,75,91,93,97,95,95,93,95,91,91,91,77,95,95,94,96,94,99,149,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1111,1207,1303,1397,1493,1585,1677,1769,1847,1943,2039,2134,2231,2326,2426,2576,2670,2748"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1116,1212,1308,1402,1498,1590,1682,1774,1852,1948,2044,2139,2236,2331,2431,2581,4983",
+                        "endColumns": "94,92,99,81,96,107,75,75,91,93,97,95,95,93,95,91,91,91,77,95,95,94,96,94,99,149,93,77",
+                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1111,1207,1303,1397,1493,1585,1677,1769,1847,1943,2039,2134,2231,2326,2426,2576,2670,5056"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\ae0956543b304e40f45032c38b0a8726\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "161",
+                        "endOffsets": "412"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3697",
+                        "endColumns": "161",
+                        "endOffsets": "3854"
                     }
                 }
             ]
@@ -1509,74 +1566,17 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
+            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-v22_values-v22.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\a9da94c1558a7febde8bcbb181a84de0\\res\\values-zh-rTW\\values.xml",
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-v22\\values-v22.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "249,348,508,621,721,887,1001,1127,1247,1416,1515,1675,1788,1949,2083,2165,2248",
-                        "endColumns": "98,159,112,99,165,113,125,119,168,98,159,112,160,133,81,82,98",
-                        "endOffsets": "347,507,620,720,886,1000,1126,1246,1415,1514,1674,1787,1948,2082,2164,2247,2346"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2675,2778,2938,3055,3159,3325,3443,3573,3859,4028,4131,4291,4408,4569,4707,4793,4880",
-                        "endColumns": "102,159,116,103,165,117,129,123,168,102,159,116,160,137,85,86,102",
-                        "endOffsets": "2773,2933,3050,3154,3320,3438,3568,3692,4023,4126,4286,4403,4564,4702,4788,4875,4978"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5061",
-                        "endColumns": "100",
-                        "endOffsets": "5157"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-zh-rTW\\values-zh-rTW.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1116,1212,1308,1402,1498,1590,1682,1774,1852,1948,2044,2139,2236,2331,2431,2581,2675",
-                        "endColumns": "94,92,99,81,96,107,75,75,91,93,97,95,95,93,95,91,91,91,77,95,95,94,96,94,99,149,93,77",
-                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1111,1207,1303,1397,1493,1585,1677,1769,1847,1943,2039,2134,2231,2326,2426,2576,2670,2748"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,47",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,293,393,475,572,680,756,832,924,1018,1116,1212,1308,1402,1498,1590,1682,1774,1852,1948,2044,2139,2236,2331,2431,2581,4983",
-                        "endColumns": "94,92,99,81,96,107,75,75,91,93,97,95,95,93,95,91,91,91,77,95,95,94,96,94,99,149,93,77",
-                        "endOffsets": "195,288,388,470,567,675,751,827,919,1013,1111,1207,1303,1397,1493,1585,1677,1769,1847,1943,2039,2134,2231,2326,2426,2576,2670,5056"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\ae0956543b304e40f45032c38b0a8726\\res\\values-zh-rTW\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "161",
-                        "endOffsets": "412"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3697",
-                        "endColumns": "161",
-                        "endOffsets": "3854"
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
                     }
                 }
             ]
@@ -1863,38 +1863,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,331,438,527,628,746,829,909,1000,1093,1189,1283,1384,1477,1572,1667,1758,1849,1936,2043,2155,2257,2365,2472,2582,2744,2844",
-                        "endColumns": "119,105,106,88,100,117,82,79,90,92,95,93,100,92,94,94,90,90,86,106,111,101,107,106,109,161,99,84",
-                        "endOffsets": "220,326,433,522,623,741,824,904,995,1088,1184,1278,1379,1472,1567,1662,1753,1844,1931,2038,2150,2252,2360,2467,2577,2739,2839,2924"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "30",
-                        "startColumns": "4",
-                        "startOffsets": "2929",
-                        "endColumns": "100",
-                        "endOffsets": "3025"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-hi_values-hi.arsc.flat",
             "map": [
                 {
@@ -1963,6 +1931,38 @@
                         "startOffsets": "2812,2922,3114,3242,3356,3566,3698,3840,4186,4402,4513,4710,4842,5042,5225,5318,5415",
                         "endColumns": "109,191,127,113,209,131,141,140,215,110,196,131,199,182,92,96,116",
                         "endOffsets": "2917,3109,3237,3351,3561,3693,3835,3976,4397,4508,4705,4837,5037,5220,5313,5410,5527"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,331,438,527,628,746,829,909,1000,1093,1189,1283,1384,1477,1572,1667,1758,1849,1936,2043,2155,2257,2365,2472,2582,2744,2844",
+                        "endColumns": "119,105,106,88,100,117,82,79,90,92,95,93,100,92,94,94,90,90,86,106,111,101,107,106,109,161,99,84",
+                        "endOffsets": "220,326,433,522,623,741,824,904,995,1088,1184,1278,1379,1472,1567,1662,1753,1844,1931,2038,2150,2252,2360,2467,2577,2739,2839,2924"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\2f4ba97be2d0c58edacca202e511c8ac\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "30",
+                        "startColumns": "4",
+                        "startOffsets": "2929",
+                        "endColumns": "100",
+                        "endOffsets": "3025"
                     }
                 }
             ]
@@ -2762,6 +2762,22 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4_values-hdpi-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-tl_values-tl.arsc.flat",
             "map": [
                 {
@@ -2830,22 +2846,6 @@
                         "startOffsets": "5801",
                         "endColumns": "100",
                         "endOffsets": "5897"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4_values-hdpi-v4.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "13",
-                        "endOffsets": "327"
                     }
                 }
             ]

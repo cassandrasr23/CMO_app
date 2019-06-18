@@ -35,7 +35,7 @@
             android:background="#000000" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_firstname"
+            android:id="@+id/text_rfirstname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true"
@@ -54,7 +54,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_last_name"
+            android:id="@+id/text_rlastname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true"
@@ -73,7 +73,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_email"
+            android:id="@+id/text_remail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true"
@@ -85,14 +85,14 @@
                 android:layout_height="40dp"
                 android:background="@drawable/edit_round"
                 android:hint="Email"
-                android:inputType="textEmailAddress"
+                android:inputType="text"
                 android:paddingLeft="10dp"
                 android:textSize="24sp" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_password"
+            android:id="@+id/text_rpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true"
@@ -111,7 +111,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_cfpw"
+            android:id="@+id/text_rcfpw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="true"

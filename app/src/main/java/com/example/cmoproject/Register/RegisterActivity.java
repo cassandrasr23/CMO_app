@@ -2,12 +2,14 @@ package com.example.cmoproject.Register;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+
 import com.example.cmoproject.Home.HomeActivity;
 import com.example.cmoproject.R;
 import com.google.android.material.textfield.TextInputLayout;
@@ -33,11 +35,11 @@ public class RegisterActivity extends AppCompatActivity {
 
         viewModel = ViewModelProviders.of(this).get(RegisterViewModel.class);
 
-        textInputEMail = findViewById(R.id.text_email);
-        textInputPassword = findViewById(R.id.text_password);
-        textInputConfirmPassword = findViewById(R.id.text_cfpw);
-        textInputFirstName = findViewById(R.id.text_firstname);
-        textInputLastName=findViewById(R.id.text_last_name);
+        textInputEMail = findViewById(R.id.text_remail);
+        textInputPassword = findViewById(R.id.text_rpassword);
+        textInputConfirmPassword = findViewById(R.id.text_rcfpw);
+        textInputFirstName = findViewById(R.id.text_rfirstname);
+        textInputLastName=findViewById(R.id.text_rlastname);
 
         btnRegister = findViewById(R.id.register);
 
@@ -102,6 +104,12 @@ public class RegisterActivity extends AppCompatActivity {
                         textInputConfirmPassword.setError(null);
                         textInputLastName.setError("check Last Name");
                         break;
+                    case CHECKEV:
+                        Toast.makeText(RegisterActivity.this,"Invalid email",Toast.LENGTH_LONG).show();
+                        break;
+                    case RERROR:
+                        Toast.makeText(RegisterActivity.this,"Conta já existe",Toast.LENGTH_LONG).show();
+                        break;
                 }
             }
         });
@@ -109,6 +117,10 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 viewModel.Register(textInputEMail.getEditText().getText().toString(),textInputPassword.getEditText().getText().toString(),textInputConfirmPassword.getEditText().getText().toString(),textInputFirstName.getEditText().getText().toString(),textInputLastName.getEditText().getText().toString());
+
+
+                Log.d("email",textInputFirstName.getEditText().getText().toString() );
+
             }
         });
     }

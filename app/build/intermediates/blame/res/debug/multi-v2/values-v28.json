@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "C:\\Users\\kassa\\AndroidStudioProjects\\CMO_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\diogo\\.gradle\\caches\\transforms-2\\files-2.1\\255ea479d93ebc08aaed403d0c07c1e4\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\693714885a82ab458880e4a5073dca05\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

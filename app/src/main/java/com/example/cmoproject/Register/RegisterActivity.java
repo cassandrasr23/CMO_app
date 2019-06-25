@@ -107,9 +107,7 @@ public class RegisterActivity extends AppCompatActivity {
                     case CHECKEV:
                         Toast.makeText(RegisterActivity.this,"Invalid email",Toast.LENGTH_LONG).show();
                         break;
-                    case RERROR:
-                        Toast.makeText(RegisterActivity.this,"Conta já existe",Toast.LENGTH_LONG).show();
-                        break;
+
                 }
             }
         });
@@ -117,9 +115,6 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 viewModel.Register(textInputEMail.getEditText().getText().toString(),textInputPassword.getEditText().getText().toString(),textInputConfirmPassword.getEditText().getText().toString(),textInputFirstName.getEditText().getText().toString(),textInputLastName.getEditText().getText().toString());
-
-
-                Log.d("email",textInputFirstName.getEditText().getText().toString() );
 
             }
         });

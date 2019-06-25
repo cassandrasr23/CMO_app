@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Based on this code https://stackoverflow.com/questions/43882348/how-to-create-a-navigation-drawer-and-bottom-bar-in-the-same-app
+!-->
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,12 +10,13 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <include
-        layout="@layout/app_bar_home"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+                <include
+                layout="@layout/app_bar_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
-    <com.google.android.material.navigation.NavigationView
+
+     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -21,5 +24,4 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_home"
         app:menu="@menu/activity_home_drawer" />
-
 </androidx.drawerlayout.widget.DrawerLayout>

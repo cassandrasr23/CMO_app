@@ -1139,6 +1139,7 @@ id auto
 id barrier
 id beginning
 id blocking
+id bnavigationView
 id bottom
 id btn_login
 id btn_register
@@ -1180,7 +1181,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1227,7 +1227,10 @@ id nav_share
 id nav_slideshow
 id nav_tools
 id nav_view
+id navigation_albums
+id navigation_artists
 id navigation_header_container
+id navigation_songs
 id never
 id none
 id normal
@@ -1429,6 +1432,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu activity_home_drawer
 menu home
+menu navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 string Close

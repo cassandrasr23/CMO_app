@@ -9,12 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Home.HomeActivity"
-            android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@menu/navigation" />
+
         <activity android:name=".Register.RegisterActivity" />
+        <activity android:name=".Home.HomeActivity" >
+
+
+
+        </activity>
         <activity android:name=".Login.MainActivity">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

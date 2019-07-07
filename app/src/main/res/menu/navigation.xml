@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
-        android:id="@+id/navigation_songs"
-        android:icon="@drawable/background"
+        android:id="@+id/action_dashboard"
+        android:icon="@drawable/dashboard"
         android:title="Dashboard"/>
 
     <item
-        android:id="@+id/navigation_albums"
-        android:icon="@drawable/background"
+        android:id="@+id/action_accounts"
+        android:icon="@drawable/accounts"
         android:title="Accounts"/>
 
     <item
-        android:id="@+id/navigation_artists"
-        android:icon="@drawable/background"
+        android:id="@+id/action_info"
+        android:icon="@drawable/info"
         android:title="Info"/>
 
 </menu>

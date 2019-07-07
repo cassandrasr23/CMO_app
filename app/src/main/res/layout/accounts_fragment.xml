@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.cmoproject.Accounts.Accounts">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/accounts_logo"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        app:civ_border="true"
+        app:civ_border_color="#2887C8"
+        app:civ_border_width="2dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="#3f51b5"
+        app:civ_shadow_radius="10" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/account_photo"
+                android:src="@drawable/conta_cv"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/account_name"
+                android:layout_toRightOf="@+id/account_photo"
+                android:text="NAME"
+                android:layout_alignParentTop="true"
+                android:textSize="30sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/income"
+                android:text="INCOME:"
+                android:layout_toRightOf="@+id/account_photo"
+                android:layout_below="@+id/account_name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/income_text"
+                android:text="0€"
+                android:layout_toRightOf="@id/income"
+                android:layout_below="@id/account_name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/expenses"
+                android:text="Expenses:"
+                android:layout_toRightOf="@id/account_photo"
+                android:layout_below="@+id/income"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/expenses_text"
+                android:text="0€"
+                android:layout_toRightOf="@id/expenses"
+                android:layout_below="@id/income_text"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ic_add_plus_button"
+        app:borderWidth="0dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        />
+</LinearLayout>

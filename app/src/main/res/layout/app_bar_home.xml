@@ -13,10 +13,10 @@
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:layout_marginTop="10dp"
+            android:background="#6FF3E6"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -30,10 +30,19 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="0dp"
         android:layout_marginStart="0dp"
-        app:itemBackground="@color/colorPrimary"
+        android:background="#39FFFFFF"
         app:itemIconTint="#0A0202"
         app:itemTextColor="#0C0B0B"
         app:menu="@menu/navigation"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bnavigationView"
+        android:layout_alignParentTop="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

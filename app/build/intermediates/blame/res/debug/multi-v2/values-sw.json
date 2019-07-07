@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kassa\\AndroidStudioProjects\\CMO_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
+            "outputFile": "C:\\Users\\kassa\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\693714885a82ab458880e4a5073dca05\\res\\values-sw\\values-sw.xml",
+                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\cd33340577bc6ad8424df0e720493011\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\eab60dde9a5ca487e60457879506fd1c\\res\\values-sw\\values-sw.xml",
+                    "source": "C:\\Users\\kassa\\.gradle\\caches\\transforms-2\\files-2.1\\466e7b0b24e0fda24c751d81090b2ee1\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,5 +1,6 @@
 package com.example.cmoproject.Login;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 
 import android.os.Bundle;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private TextInputLayout textInputEMail;
     private TextInputLayout textInputPassword;
 
+    private ProgressDialog LoadingBar;
 
     private Button  btnLogin;
     private Button  btnRegister;
@@ -38,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         textInputEMail = findViewById(R.id.text_email);
         textInputPassword = findViewById(R.id.text_password);
 
+        LoadingBar = new ProgressDialog(this);
+
+
         btnLogin = findViewById(R.id.btn_login);
 
         btnRegister = findViewById(R.id.btn_register);
@@ -47,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
             public void onChanged(MainActivityViewModel.ResultType resultType) {
                 switch (resultType) {
                     case SUCCESS:
+                        LoadingBar.setTitle("Welcome");
+                        LoadingBar.show();
                         startActivity(new Intent(MainActivity.this, HomeActivity.class));
                         finish();
                         break;
@@ -80,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, RegisterActivity.class));
-
+                finish();
             }
         });
     }

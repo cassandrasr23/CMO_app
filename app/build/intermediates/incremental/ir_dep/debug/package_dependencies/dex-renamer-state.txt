@@ -1,4 +1,7 @@
-#Tue May 28 11:16:50 BST 2019
-base.0=C\:\\Users\\kassa\\AndroidStudioProjects\\CMO_app\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Tue Jun 25 14:28:11 BST 2019
+base.0=C\:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\diogo\\Dropbox\\Aulas 3 Ano\\CMO\\Projects\\CMO_app-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10

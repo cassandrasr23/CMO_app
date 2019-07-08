@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.cmoproject.Settings.SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings:"
+            android:textSize="10mm"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/Currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Currency:"
+            android:textSize="6mm"
+            android:textStyle="bold"
+            android:layout_below="@+id/header"/>
+        <Spinner
+            android:id="@+id/CurrencySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:layout_toRightOf="@+id/Currency"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/header"
+            android:spinnerMode="dropdown"/>
+
+        <TextView
+            android:id="@+id/Language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Language:"
+            android:textSize="6mm"
+            android:textStyle="bold"
+            android:layout_below="@+id/Currency"/>
+
+        <Spinner
+            android:id="@+id/LanguageSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:layout_toRightOf="@+id/Language"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/CurrencySpinner"
+            android:spinnerMode="dropdown"/>
+
+
+        //buttons
+        <Button
+            android:id="@+id/Editprofile"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:background="@drawable/transparent_button"
+            android:textStyle="bold"
+            android:layout_marginBottom="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/Auth"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Authentication"
+            android:textStyle="bold"
+            android:background="@drawable/transparent_button"
+            android:layout_marginBottom="250dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/Exportcsv"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Export Csv"
+            android:textStyle="bold"
+            android:background="@drawable/transparent_button"
+            android:layout_marginBottom="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textStyle="bold"
+            android:background="@drawable/transparent_button"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="50dp"
+            android:layout_alignParentBottom="true"
+
+            />
+
+        <Button
+            android:id="@+id/deleteacc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:textStyle="bold"
+            android:background="#E60505"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="250dp"
+            android:layout_alignParentBottom="true"
+
+            />
+
+
+    </RelativeLayout>
+</FrameLayout>

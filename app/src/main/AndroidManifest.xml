@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-
+        <activity android:name=".EditProfile.EditProfileActivity"></activity>
+        <activity android:name=".Settings.SettingsActivity" />
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@menu/navigation" />

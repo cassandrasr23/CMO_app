@@ -18,11 +18,12 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.cmoproject.Accounts.Accounts;
+import com.example.cmoproject.Adapter.ViewPagerAdapter;
 import com.example.cmoproject.Dashboard.Dashboard;
 import com.example.cmoproject.Info.Info;
 import com.example.cmoproject.Login.MainActivity;
 import com.example.cmoproject.R;
-import com.example.cmoproject.ViewPage.ViewPagerAdapter;
+import com.example.cmoproject.Settings.SettingsActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -143,6 +144,10 @@ public class HomeActivity extends AppCompatActivity
         adapter.addFragment(Accounts);
         adapter.addFragment(Info);
         viewPager.setAdapter(adapter);
+
+        //adapter.updateData();
+
+
     }
 
     @Override
@@ -172,7 +177,8 @@ public class HomeActivity extends AppCompatActivity
         if (id == R.id.nav_sortvalues) {
             // Handle the camera action
         } else if (id == R.id.nav_settings) {
-
+            Intent intent = new Intent(HomeActivity.this, SettingsActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_calendaar) {
 
         } else if (id == R.id.nav_showaccounts) {

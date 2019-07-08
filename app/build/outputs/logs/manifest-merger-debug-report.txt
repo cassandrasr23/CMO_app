@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\d08d3eea2539b0c3ae95f35a11a3b8c5\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\3051879bf1d5bf7e612c1c4e18e051af\AndroidManifest.xml:17:1-24:12
+MERGED from [de.codecrafters.tableview:tableview:2.2.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\daee9a4aa9c8c27483fd2ee26141910d\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\cd33340577bc6ad8424df0e720493011\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\6b4ce7236f0a93d5f1da8c016ecf27db\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikhaellopez:circularimageview:3.2.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\cce0cf57b06791765b0e423a595816cf\AndroidManifest.xml:2:1-11:12
@@ -34,8 +35,8 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\3412ae0a5ff9742ff920b4a8a49e0d29\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\a1e53fbb362851f3ddbdfc778b7a8b04\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\5471a0be7df0351938a2e92ab86c2405\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\0f25a62a0d36a324e0f4974dd626e4d8\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\5c8f388d84563d5b65b0fdafe77f9e01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\0f25a62a0d36a324e0f4974dd626e4d8\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\750a6361c2160d82a81725f4dc71a66b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\701fe5671cd636e148b9aa86117d127d\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\c539a9bf292e5123cc7bcf829dbef784\AndroidManifest.xml:17:1-22:12
@@ -67,27 +68,29 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kassa\.gradle\ca
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\c12777d7f38f3775523bd21b228df918\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\53f6ca2985ad11b9c12fc3618dc44cfb\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.16.1] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\62d570489eb71ae0bcc4e2881929e539\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:5:5-33:19
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:5:5-34:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\3051879bf1d5bf7e612c1c4e18e051af\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\3051879bf1d5bf7e612c1c4e18e051af\AndroidManifest.xml:22:5-20
+MERGED from [de.codecrafters.tableview:tableview:2.2.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\daee9a4aa9c8c27483fd2ee26141910d\AndroidManifest.xml:11:5-53
+MERGED from [de.codecrafters.tableview:tableview:2.2.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\daee9a4aa9c8c27483fd2ee26141910d\AndroidManifest.xml:11:5-53
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\6b4ce7236f0a93d5f1da8c016ecf27db\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\6b4ce7236f0a93d5f1da8c016ecf27db\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-alpha01] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\761a6d5b511fd9a9bf539865b595206f\AndroidManifest.xml:22:5-23:19
@@ -154,34 +157,42 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-alpha01] C:\Users\kassa\
 		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.cmoproject.EditProfile.EditProfileActivity
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:13:9-78
+	android:name
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:13:19-66
+activity#com.example.cmoproject.Settings.SettingsActivity
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:14:9-63
+	android:name
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:14:19-60
 meta-data#com.google.android.actions
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:14:9-16:51
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:15:9-17:51
 	android:resource
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:16:13-48
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:17:13-48
 	android:name
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:15:13-54
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:16:13-54
 activity#com.example.cmoproject.Register.RegisterActivity
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:18:9-63
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:19:9-63
 	android:name
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:18:19-60
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:19:19-60
 activity#com.example.cmoproject.Home.HomeActivity
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:19:9-23:20
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:20:9-24:20
 	android:name
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:19:19-52
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:20:19-52
 activity#com.example.cmoproject.Login.MainActivity
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:name
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:24:19-53
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:25:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml:31:27-74
 uses-sdk
 INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kassa\Dropbox\Aulas 3 Ano\CMO\Projects\CMO_app\app\src\main\AndroidManifest.xml
@@ -190,6 +201,8 @@ MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\kassa\.gradle\caches\tra
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\d08d3eea2539b0c3ae95f35a11a3b8c5\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\3051879bf1d5bf7e612c1c4e18e051af\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\3051879bf1d5bf7e612c1c4e18e051af\AndroidManifest.xml:20:5-44
+MERGED from [de.codecrafters.tableview:tableview:2.2.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\daee9a4aa9c8c27483fd2ee26141910d\AndroidManifest.xml:7:5-9:41
+MERGED from [de.codecrafters.tableview:tableview:2.2.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\daee9a4aa9c8c27483fd2ee26141910d\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\cd33340577bc6ad8424df0e720493011\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\cd33340577bc6ad8424df0e720493011\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\6b4ce7236f0a93d5f1da8c016ecf27db\AndroidManifest.xml:5:5-7:41
@@ -246,10 +259,10 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kassa\.gradle\cac
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\a1e53fbb362851f3ddbdfc778b7a8b04\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\5471a0be7df0351938a2e92ab86c2405\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\5471a0be7df0351938a2e92ab86c2405\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\0f25a62a0d36a324e0f4974dd626e4d8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\0f25a62a0d36a324e0f4974dd626e4d8\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\5c8f388d84563d5b65b0fdafe77f9e01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\5c8f388d84563d5b65b0fdafe77f9e01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\0f25a62a0d36a324e0f4974dd626e4d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\0f25a62a0d36a324e0f4974dd626e4d8\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\750a6361c2160d82a81725f4dc71a66b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\750a6361c2160d82a81725f4dc71a66b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kassa\.gradle\caches\transforms-2\files-2.1\701fe5671cd636e148b9aa86117d127d\AndroidManifest.xml:20:5-44

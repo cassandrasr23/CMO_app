@@ -506,6 +506,9 @@ attr tabStyle
 attr tabTextAppearance
 attr tabTextColor
 attr tabUnboundedRipple
+attr tableView_columnCount
+attr tableView_headerColor
+attr tableView_headerElevation
 attr textAllCaps
 attr textAppearanceBody1
 attr textAppearanceBody2
@@ -1073,6 +1076,7 @@ drawable ic_add_circle_outline_black_24dp
 drawable ic_add_plus_button
 drawable ic_cancel_black_24dp
 drawable ic_date_range_black_24dp
+drawable ic_directions_car_black_24dp
 drawable ic_hoome
 drawable ic_icons8_lock
 drawable ic_launcher_background
@@ -1092,6 +1096,7 @@ drawable ic_person_black_24dp
 drawable ic_person_icon_6
 drawable ic_settings_black_24dp
 drawable ic_sort
+drawable ic_work_black_24dp
 drawable info
 drawable lock
 drawable login
@@ -1117,8 +1122,16 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transparent_button
 id ALT
+id Auth
+id Back
 id CTRL
+id Currency
+id CurrencySpinner
+id Editprofile
+id Exportcsv
 id FUNCTION
+id Language
+id LanguageSpinner
 id META
 id SHIFT
 id SYM
@@ -1156,6 +1169,7 @@ id all
 id always
 id async
 id auto
+id back
 id barrier
 id beginning
 id blocking
@@ -1165,9 +1179,10 @@ id btn_login
 id btn_register
 id buttonPanel
 id cancel_action
-id cat2
-id cat3
+id car
+id carcat
 id categories
+id categorietextview
 id center
 id center_horizontal
 id center_vertical
@@ -1188,6 +1203,7 @@ id cv
 id dark
 id decor_content_parent
 id default_activity_button
+id deleteacc
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1197,8 +1213,8 @@ id dimensions
 id direct
 id disableHome
 id drawer_layout
+id edit
 id edit_query
-id elvMain
 id end
 id end_padder
 id enterAlways
@@ -1219,6 +1235,7 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id header
 id home
 id homeAsUp
 id homecat
@@ -1243,6 +1260,7 @@ id line1
 id line3
 id listMode
 id list_item
+id list_recyclerview
 id logo
 id masked
 id media_actions
@@ -1291,7 +1309,6 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scrollView1
 id scrollable
 id search_badge
 id search_bar
@@ -1314,6 +1331,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sort_view
 id spacer
 id split_action_bar
 id spread
@@ -1328,6 +1346,8 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id table_data_view
+id table_header_view
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -1347,6 +1367,7 @@ id text_password
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id texto1
 id time
 id title
 id titleDividerNoCustom
@@ -1356,17 +1377,19 @@ id top
 id topPanel
 id total
 id touch_outside
+id transexpenses
 id transition_current_scene
 id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id transreveneus
 id uniform
 id unlabeled
 id up
 id useLogo
-id user
 id value
+id valuetextview
 id valuetoadd
 id view1
 id view2
@@ -1375,6 +1398,7 @@ id viewpager
 id visible
 id wide
 id withText
+id workcat
 id wrap
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -1427,9 +1451,11 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout accounts_fragment
 layout activity_add_contas
+layout activity_edit_profile
 layout activity_home
 layout activity_main
 layout activity_register
+layout activity_settings
 layout app_bar_home
 layout content_home
 layout dashboard_fragment
@@ -1448,6 +1474,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout info_fragment
+layout item_value
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout nav_header_home
@@ -1470,12 +1497,19 @@ layout sample_add_teste
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout settings_fragment
+layout sortable_header
 layout support_simple_spinner_dropdown_item
+layout values_item
 menu activity_home_drawer
 menu navigation
+mipmap ic_dark_sortable
+mipmap ic_dark_sorted_asc
+mipmap ic_dark_sorted_desc
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_light_sortable
+mipmap ic_light_sorted_asc
+mipmap ic_light_sorted_desc
 string Close
 string Open
 string abc_action_bar_home_description
@@ -1541,6 +1575,8 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_cell
+string default_header
 string default_web_client_id
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -1571,6 +1607,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string search_menu_title
+string sortable_indicator_content_description
 string status_bar_notification_info_overflow
 string title_activity_add_value_activiry
 string title_activity_home
@@ -2087,7 +2124,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
-styleable AddTeste exampleColor exampleDimension exampleDrawable exampleString
+styleable AddValueDialog exampleColor exampleDimension exampleDrawable exampleString
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable
@@ -2155,6 +2192,7 @@ styleable StateListDrawableItem android_drawable
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable TabItem android_icon android_layout android_text
 styleable TabLayout tabBackground tabContentStart tabGravity tabIconTint tabIconTintMode tabIndicator tabIndicatorAnimationDuration tabIndicatorColor tabIndicatorFullWidth tabIndicatorGravity tabIndicatorHeight tabInlineLabel tabMaxWidth tabMinWidth tabMode tabPadding tabPaddingBottom tabPaddingEnd tabPaddingStart tabPaddingTop tabRippleColor tabSelectedTextColor tabTextAppearance tabTextColor tabUnboundedRipple
+styleable TableView tableView_columnCount tableView_headerColor tableView_headerElevation
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily fontFamily textAllCaps
 styleable TextInputLayout android_textColorHint android_hint boxBackgroundColor boxBackgroundMode boxCollapsedPaddingTop boxCornerRadiusBottomEnd boxCornerRadiusBottomStart boxCornerRadiusTopEnd boxCornerRadiusTopStart boxStrokeColor boxStrokeWidth counterEnabled counterMaxLength counterOverflowTextAppearance counterTextAppearance errorEnabled errorTextAppearance helperText helperTextEnabled helperTextTextAppearance hintAnimationEnabled hintEnabled hintTextAppearance passwordToggleContentDescription passwordToggleDrawable passwordToggleEnabled passwordToggleTint passwordToggleTintMode
 styleable ThemeEnforcement android_textAppearance enforceMaterialTheme enforceTextAppearance
